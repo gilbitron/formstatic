@@ -57,9 +57,6 @@ require dirname(__DIR__) . '/bootstrap.php';
                 <li>More processors coming soon&hellip;</li>
             </ul>
 
-            <h3 class="text-xl font-bold text-gray-900 leading-tight mb-3 mt-8">What about reliability?</h3>
-            <p class="mb-4">Formstatic is backed by world class hosting in a serverless environment, essentially making infinitely scalable.</p>
-
             <h3 class="text-xl font-bold text-gray-900 leading-tight mb-3 mt-8">What about security?</h3>
             <p class="mb-4">Formstatic uses the latest TLS encryption standards to encrypt any data you send to us.</p>
 

@@ -8,6 +8,11 @@
 
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
     <link rel="stylesheet" href="/css/style.css">
+    <?php
+    if (file_exists(dirname(__DIR__) . '/partials/analytics.php')) {
+        include dirname(__DIR__) . '/partials/analytics.php';
+    }
+    ?>
 </head>
 <body class="antialiased">
 <div class="container mx-auto px-6 lg:max-w-3xl xl:max-w-3xl">

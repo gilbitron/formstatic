@@ -36,10 +36,11 @@
             <ul class="list-disc mb-4 pl-6">
                 <li><code class="text-base text-indigo-600">$to</code> &mdash; An email address to send submissions to.</li>
                 <li><code class="text-base text-indigo-600">$reply_to</code> &mdash; (optional) Specify the reply-to email address.</li>
-                <li><code class="text-base text-indigo-600">$subject</code> &mdash; (optional) Specify the subject.</li>
+                <li><code class="text-base text-indigo-600">$subject</code> &mdash; (optional) Specify the subject (default: Formstatic Submission).</li>
                 <li><code class="text-base text-indigo-600">$cc</code> &mdash; (optional) Add a CC email address.</li>
                 <li><code class="text-base text-indigo-600">$bcc</code> &mdash; (optional) Add a BCC email address.</li>
             </ul>
+            <p class="mb-4">Emails are sent by Amazon SES from <code class="text-base text-indigo-600">&#115;&#117;&#98;&#109;&#105;&#115;&#115;&#105;&#111;&#110;&#115;&#64;&#102;&#111;&#114;&#109;&#115;&#116;&#97;&#116;&#105;&#99;&#46;&#100;&#101;&#118;</code>.</p>
 
             <h2 class="text-2xl font-bold text-gray-900 leading-tight mb-3 mt-10" id="webhook-processor">Webhook Processor</h2>
             <p class="mb-4">The <code class="text-base text-indigo-600">webhook</code> processor sends a HTTP request containing the form data to an <code class="text-base text-indigo-600">$endpoint</code>:</p>

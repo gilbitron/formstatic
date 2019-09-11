@@ -3,6 +3,8 @@
         <strong>Formstatic</strong> was created by <a href="https://gilbitron.me" target="_blank">Gilbert Pellegrom</a> from <a href="https://dev7studios.co" target="_blank">Dev7studios</a>.
     </p>
     <p class="mb-4">
+        <a href="https://twitter.com/formstaticdev">Twitter</a>
+        <span class="mx-2">/</span>
         <a href="https://github.com/gilbitron/formstatic">GitHub</a>
         <span class="mx-2">/</span>
         <a href="/privacy">Privacy</a>

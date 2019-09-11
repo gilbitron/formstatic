@@ -65,6 +65,9 @@ require dirname(__DIR__) . '/bootstrap.php';
 
             <h3 class="text-xl font-bold text-gray-900 leading-tight mb-3 mt-8">How much does it cost?</h3>
             <p class="mb-4">Formstatic is free to use.</p>
+
+            <h3 class="text-xl font-bold text-gray-900 leading-tight mb-3 mt-8">How do I get news &amp; updates?</h3>
+            <p class="mb-4"><a href="https://twitter.com/formstaticdev" target="_blank">Follow @formstaticdev on Twitter</a></p>
         </section>
 
         <?php include __DIR__ . '/partials/footer.php' ?>

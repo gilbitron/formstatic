@@ -64,7 +64,7 @@ require dirname(__DIR__) . '/bootstrap.php';
             <p class="mb-4">Formstatic does it's best to keep your data private. We never store or log any data you send to us. Formstatic is also <a href="https://github.com/gilbitron/formstatic">open source</a> meaning you can always host your own version of Formstatic if privacy is a concern.</p>
 
             <h3 class="text-xl font-bold text-gray-900 leading-tight mb-3 mt-8">How much does it cost?</h3>
-            <p class="mb-4">Formstatic is free to use.</p>
+            <p class="mb-4">Formstatic is free to use. Looking for more? <a href="/pro">Check out Formstatic Pro</a></p>
 
             <h3 class="text-xl font-bold text-gray-900 leading-tight mb-3 mt-8">How do I get news &amp; updates?</h3>
             <p class="mb-4"><a href="https://twitter.com/formstaticdev" target="_blank">Follow @formstaticdev on Twitter</a></p>

@@ -32,9 +32,9 @@
         </ul>
         <p class="mb-4">If this sounds like something you'd be interested in and willing to pay a small annual fee for, pop your details in the form below to be the first to be notified when we launch!</p>
 
-        <form action="https://formstatic.dev" method="post" class="mt-10">
-            <input type="hidden" name="$processor" value="email">
-            <input type="hidden" name="$to" value="support@formstatic.dev">
+        <form action="https://sendy.dev7studios.co/subscribe" method="post" class="mt-10">
+            <input type="hidden" name="list" value="NZwAeywJvroLkjs8bjWDDw"/>
+            <input type="hidden" name="subform" value="yes"/>
 
             <div class="mb-4">
                 <label for="name" class="block text-gray-900 mb-1">Your Full Name</label>
@@ -43,6 +43,16 @@
             <div class="mb-4">
                 <label for="email" class="block text-gray-900 mb-1">Your Email Address</label>
                 <input type="text" id="email" name="email" placeholder="email@example.com" class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            </div>
+            <div class="mb-6">
+                <label for="gdpr">
+                    <input type="checkbox" name="gdpr" id="gdpr" class="mr-2">
+                    <span class="text-sm"><strong>Marketing permission</strong>: I give my consent to Formstatic to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+                </label>
+            </div>
+            <div style="display:none;">
+                <label for="hp">HP</label><br/>
+                <input type="text" name="hp" id="hp"/>
             </div>
             <button type="submit" class="btn btn-primary">
                 I'm interested. Sign me up!
